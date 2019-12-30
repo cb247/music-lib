@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+.music{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.side-bar{
+    width: 24%;
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.burger{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 30px;
+}
+.burger:hover{
+    background-color: rgb(165, 163, 163);
+    
+}
+.burger div{
+    background-color: rgb(68, 60, 60);
+    width: 20px;
+    height: 1px;
+    border-radius: 3px;
+    margin: 4px;
+}
+p1{
+    margin-left: 50px;
+    font-size: 20px
+}
+.side-bar-list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.my-music{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.my-music:hover{
+    background-color: rgb(201, 200, 200);
+}
+.recent-plays{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.recent-plays:hover{
+    background-color: rgb(201, 200, 200);
+}
+.now-playing{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.now-playing:hover{
+    background-color: rgb(201, 200, 200);
+}
+.playlists{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.playlists:hover{
+    background-color: rgb(201, 200, 200);
+}
+.lamar1{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.lamar1:hover{
+    background-color: rgb(201, 200, 200);
+}
+.lamar2{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.lamar2:hover{
+    background-color: rgb(201, 200, 200);
+}
+.lamar3{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+}
+.lamar3:hover{
+    background-color: rgb(201, 200, 200);
+}
+.settings{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 10px;
+    transition: .3s ease;
+
+}
+.settings:hover{
+    background-color: rgb(201, 200, 200);
+}
+.second-half{
+    width: 76%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.red-container{
+    display: flex;
+    width: 100%;
+    height: 265px;
+    color: white;
+    background-color: rgb(182, 30, 30);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.image{
+    width: 200px;
+    height: 210px;
+    margin-top: 26px;
+    margin-left: 20px;
+    background-image: url(me.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.write-up{
+    display: flex;
+    flex-direction: column;
+    margin-left: -73%;
+    margin-top: 26px;
+    height: 30px;
+}
+p2{
+    font-size: 25px;
+}
+p3{
+    margin-top: 10px;
+    line-height: 23px;
+}
+.links{
+    width: 76%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 208px;
+}
+.play{
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.play:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.add{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.add:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.show{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.show:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.pin{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.pin:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.edit{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.edit:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.delete{
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.delete:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.lib{
+    margin-top: 30px;
+    width: 92%;
+    height: 300px;
+    margin-left: 4%;
+    font-size: 18px;
+}
+.lib1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 9px;
+    transition: .2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lib1:hover{
+    background-color: rgb(167, 167, 167);
+}
+.lib2{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 9px;
+    transition: .2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lib2:hover{
+    background-color: rgb(167, 167, 167);
+}
+.lib3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 9px;
+    transition: .2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lib3:hover{
+    background-color: rgb(167, 167, 167);
+}
+.lib4{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 9px;
+    transition: .2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lib4:hover{
+    background-color: rgb(167, 167, 167);
+
+}
+.lib5{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 228, 228);
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 9px;
+    transition: .2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lib5:hover{
+    background-color: rgb(167, 167, 167);
+
+}
+.lib6{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    padding: 0px 9px 0px 9px;
+    transition: .2s ease;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lib6:hover{
+    background-color: rgb(167, 167, 167);
+
+}
+l5{
+    margin-left: -2px;
+}
+l8{
+    margin-left: -47px;
+}
+l11{
+    margin-left: -175px;
+}
+l14{
+    margin-left: 7px;
+}
+l17{
+    margin-left: -13px;
+}
+
